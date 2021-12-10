@@ -14,3 +14,7 @@ print(x * x)
 //２乗の計算式を書く
 var y = 2
 print(y * y)
+
+
+//定数の定義はletを使う。変数の定義はvarを使う
+let tax = 1.10
