@@ -18,3 +18,9 @@ print(y * y)
 
 //定数の定義はletを使う。変数の定義はvarを使う
 let tax = 1.10
+
+//for文の勉強
+var n = 3
+for n in 1...9{
+    print(n * 3)
+}
