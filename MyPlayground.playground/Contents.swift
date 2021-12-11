@@ -24,3 +24,11 @@ var n = 3
 for n in 1...9{
     print(n * 3)
 }
+
+//練習問題3-2
+//１〜１００までの合計値を算出するプログラム
+var sum = 0
+for i in 1...100{
+ sum += i
+}
+print(sum)
