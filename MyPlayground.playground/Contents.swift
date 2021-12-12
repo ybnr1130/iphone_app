@@ -32,3 +32,17 @@ for i in 1...100{
  sum += i
 }
 print(sum)
+
+//1~9の段を計算するプログラム
+var tum = 0
+for n in 1...9 {
+    for t in 1...9 {
+        tum = n * t
+        print(tum)
+    }
+}
+
+//ブール値の学習
+print(1 == 1)
+print(1 == 2)
+print(1 == 3)
