@@ -46,3 +46,16 @@ for n in 1...9 {
 print(1 == 1)
 print(1 == 2)
 print(1 == 3)
+
+
+//変数の型指定について
+//Swiftでは型が自動で決められる。
+var a = 1
+var b = "美味しいよ"
+var c = "カレーライス"
+
+print(a)
+print(b)
+print(b + c)
+//上記ではa+cのようにaとb,cを合体させるプログラムを記述するとエラーが出る
+
