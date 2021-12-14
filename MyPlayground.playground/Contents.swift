@@ -59,3 +59,12 @@ print(b)
 print(b + c)
 //上記ではa+cのようにaとb,cを合体させるプログラムを記述するとエラーが出る
 
+//var = 変数名：型 = 初期値
+//上記方法で型を指定することが可能
+var number : Int = 1
+print(number)
+
+//excercise4-1
+var bodyTemp : Double = 36
+bodyTemp = 36.5
+print(bodyTemp)
