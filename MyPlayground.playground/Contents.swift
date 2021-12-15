@@ -75,3 +75,12 @@ if batteryRemaining <= 20 {
     print("バッテリー残量が少なくなっています")
 }
 
+//else文の書き方
+var num = -1
+if num > 0 {
+    print("\(num)は正の数です")
+} else {
+    print("\(num)は負の数か0です")
+}
+
+
