@@ -83,4 +83,9 @@ if num > 0 {
     print("\(num)は負の数か0です")
 }
 
+if batteryRemaining <= 10 {
+    print("バッテリー残量は10%以下です")
+}  else if batteryRemaining <= 20 {
+    print("バッテリー残量は20%以下です")
+}
 
