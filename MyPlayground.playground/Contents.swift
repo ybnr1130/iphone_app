@@ -68,3 +68,10 @@ print(number)
 var bodyTemp : Double = 36
 bodyTemp = 36.5
 print(bodyTemp)
+
+//if文のカリキュラム
+var batteryRemaining = 18
+if batteryRemaining <= 20 {
+    print("バッテリー残量が少なくなっています")
+}
+
