@@ -89,3 +89,8 @@ if batteryRemaining <= 10 {
     print("バッテリー残量は20%以下です")
 }
 
+//配列に関するお勉強
+var todos = ["ジョギングをする", "朝食を食べる", "ピアノを弾く"]
+print(todos[0])
+print(todos[1])
+print(todos[2])
