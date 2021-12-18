@@ -76,7 +76,7 @@ if batteryRemaining <= 20 {
 }
 
 //else文の書き方
-var num = -1
+var num = 1
 if num > 0 {
     print("\(num)は正の数です")
 } else {
@@ -94,3 +94,23 @@ var todos = ["ジョギングをする", "朝食を食べる", "ピアノを弾�
 print(todos[0])
 print(todos[1])
 print(todos[2])
+print(todos[num])
+
+todos[0] = "映画を見る"
+print(todos[0])
+
+for task in todos {
+    print(0)
+    print(task)
+}
+
+//excercise4-2
+var sum1 = 0
+var score = [95, 70 ,80]
+
+for todoli in score {
+    sum1 += todoli
+}
+print(sum1)
+
+
