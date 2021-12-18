@@ -113,4 +113,5 @@ for todoli in score {
 }
 print(sum1)
 
-
+var numberOfTires = ["車":4, "バイク":2, "船":0]
+print(numberOfTires["車"])
