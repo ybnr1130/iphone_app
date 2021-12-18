@@ -115,3 +115,12 @@ print(sum1)
 
 var numberOfTires = ["車":4, "バイク":2, "船":0]
 print(numberOfTires["車"])
+
+//excercise4-3
+//国語95,数学70,英語80を辞書を使って一つにまとめる。数学は100点に書き換える
+var scoreOfTest = ["国語":95,
+                   "数学":70,
+                   "英語":80]
+print(scoreOfTest)
+scoreOfTest["数学"] = 100
+print(scoreOfTest)
