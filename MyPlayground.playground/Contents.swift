@@ -124,3 +124,22 @@ var scoreOfTest = ["国語":95,
 print(scoreOfTest)
 scoreOfTest["数学"] = 100
 print(scoreOfTest)
+
+//関数の勉強
+for d in 1...9 {
+    print(2 * d)
+}
+
+//関数の呼び出し方
+//func 関数名() {
+//      文
+//}
+
+func kuku2dan() {
+    for e in 1...9 {
+        print(2 * e)
+    }
+    print("練習だよ")
+}
+
+kuku2dan()
