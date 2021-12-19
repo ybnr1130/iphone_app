@@ -143,3 +143,13 @@ func kuku2dan() {
 }
 
 kuku2dan()
+
+func kuku(dan:Int) {
+    for g in 1...9 {
+        print(dan * g)
+    }
+}
+
+kuku(dan: 2)
+kuku(dan: 3)
+kuku(dan: 4)
