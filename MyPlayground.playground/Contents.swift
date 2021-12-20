@@ -181,3 +181,15 @@ func areaOfTriangle3(withBase3 base3:Int, height3 height3:Int) -> Int{
 }
 var area = areaOfTriangle3(withBase3: 8, height3: 3)
 print(area)
+
+//excercise4-4
+//引数を使って正方形の面積を表示する関数を作成
+//1辺の長さが3の正方形の面積を表示する
+func areaOfSquare(withEdge edge:Int) -> Int{
+    let result = edge * edge
+    return result
+}
+var square = areaOfSquare(withEdge: 5)
+print("１辺が5の四角形の面積を表示する")
+print(square)
+
