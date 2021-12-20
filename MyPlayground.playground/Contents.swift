@@ -172,3 +172,12 @@ func areaOfTriangle2(withBase2 base2:Int, height2:Int){
     print(base2 * height2 / 2)
 }
 areaOfTriangle2(withBase2: 5, height2: 4)
+
+
+//戻り値を使って計算結果を表示させる
+func areaOfTriangle3(withBase3 base3:Int, height3 height3:Int) -> Int{
+    let result = base3 * height3 / 2
+    return result
+}
+var area = areaOfTriangle3(withBase3: 8, height3: 3)
+print(area)
