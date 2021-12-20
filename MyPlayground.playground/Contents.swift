@@ -153,3 +153,22 @@ func kuku(dan:Int) {
 kuku(dan: 2)
 kuku(dan: 3)
 kuku(dan: 4)
+
+//関数に複数の引数を持たせる
+func areaOfTriangle(withBase:Int, height:Int){
+    print(withBase * height / 2)
+}
+areaOfTriangle(withBase: 4, height: 3)
+
+//複数の引数を持つ関数にラベルをつける
+//swiftは関数名と引数が文章で繋がるように命名するのが基本
+//引数は関数の設計時に繰り返し出てくるケースがあり、引数名に違和感が出ることもある（withBaseを引数とするように）
+//ラベルをつけることで、関数の呼び出し時に引数に数値を代入する際にはラベルで引数の呼び出しが可能になり
+//関数の設計時には引数名で呼び出すことが可能になる
+//参考に下記のラベルあり関数を記述
+
+//ラベルありバージョン
+func areaOfTriangle2(withBase2 base2:Int, height2:Int){
+    print(base2 * height2 / 2)
+}
+areaOfTriangle2(withBase2: 5, height2: 4)
